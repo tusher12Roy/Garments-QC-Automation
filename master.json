@@ -1,0 +1,45 @@
+{
+  "paths": {
+    "pending_reports": "D:\\Fabric Share\\Fabric Inspection Report\\Inspection report\\Pending Reports",
+    "ongoing_work": "D:\\Fabric Share\\Fabric Inspection Report\\Inspection report\\ONEGOING WORK\\2025",
+    "main_workbook": "D:\\Chanchol Roy\\Goal Follow Up Data-2020 TO 2025\\Goal Follow Up Data.xlsm",
+    "main_workbook_backup": "D:\\Fabric Share\\Data analisis report",
+    "manual_review": "C:\\Users\\quality20\\Desktop\\Manual Review Needed"
+  },
+    "email_settings": {
+        "primary_recipient": "fabricqed@gmail.com",
+        "secondary_recipient": "fabricquality@debonairgroupbd.com"
+    },
+    "email_filter_rules": {
+        "pass_report_triggers": {
+            "width_shortage_tolerance_inch": 0,
+            "length_shortage_percentage": 0.50,
+            "avg_point_threshold": 10,
+            "shading_percentage_threshold": 15
+        }
+    },
+    "cell_map_organization": {
+        "sheet_name": "Summary",
+        "buyer": "B5", "supplier": "B13", "consignment": "B21", "date": "K4",
+        "style": "B7", "color": "B9", "rolls": "B23", "fabric_code": "F10",
+        "comment": "F47", "result": "B49",
+        "order_width": "B15", "actual_width": "B19",
+        "check_yards": "B29", "ticked_yards": "B31", "total_short_excess": "B33",
+        "avg_point": "B41", "std_point": "B43", "check_roll": "B27"
+    },
+    "mappings_data_entry": {
+        "target_table_name": "Table13",
+        "summary_mapping": {
+            "B4": "F", "B5": "I", "B7": "J", "B9": "K", "B13": "L", "B19": "T",
+            "B27": "R", "B29": "S", "F4": "G", "K4": "H", "F6": "M", "F10": "N",
+            "H23": "AV", "H24": "AW", "H26": "AX", "F47": "AO", "B49": "AN",
+            "B21": "O", "B23": "P", "B25": "Q"
+        },
+        "defect_mapping": {
+            "Thick yarn": "U", "Missing yarn": "V", "Print Missing": "W", "End out": "X",
+            "Line mark": "Y", "Fly yarn": "Z", "Hole": "AA", "Slabs": "AB",
+            "Stain/Dirts": "AC", "Crease mark": "AD", "splice/Inside": "AE", "Spot": "AF",
+            "long stick mark": "AG", "Knots": "AH", "Stop Mark": "AI", "Shade Bar": "AJ"
+        }
+    }
+}

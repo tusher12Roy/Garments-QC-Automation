@@ -1,0 +1,6 @@
+pandas
+requests
+xlwings
+openpyxl
+pywin32
+python-dotenv
